@@ -12,7 +12,7 @@ class App extends React.Component {
 
   loadScript(ipname, param) {
     const script = document.createElement("script");
-    script.src = `${ipname}${param}`;
+    script.src = `http://${ipname}${param}`;
     script.async = true;
     document.body.appendChild(script);
   }

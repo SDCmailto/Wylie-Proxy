@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+#newrelic
+newrelic.js
+newrelic_agent.log
